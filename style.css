@@ -1,0 +1,85 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black; 
+    color: white; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+
+.input {
+    padding: 3px;
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+    font-size: 14px;
+    background-color: #333; 
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+#button {
+    margin-right: 300px;
+    width: 55px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #5C8A0F;
+    margin-top: -15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.myTable {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.myTable th, .myTable td {
+    border: 1px solid white; 
+    padding: 8px;
+    text-align: center;
+}
+
+.myTable td button {
+    margin: 3px;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#edit {
+    background: #FFC300;
+    width: 45px;
+    border: transparent;
+    height: 30px;
+    cursor: pointer;
+}
+
+#delete {
+    background-color: red;
+    height: 30px;
+    width: 50px;
+    border: transparent;
+    cursor: pointer;
+}
